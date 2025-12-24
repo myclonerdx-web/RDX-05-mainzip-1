@@ -8,6 +8,7 @@ let botModule = null;
 let botStarted = false;
 
 const BRAND_NAME = "SARDAR RDX";
+const BOT_VERSION = "0.6";
 const BRAND_WHATSAPP = "+923301068874";
 const BRAND_EMAIL = "sardarrdx@gmail.com";
 
@@ -62,6 +63,7 @@ async function startBot() {
     console.log(`║  ██║  ██║██████╔╝██╔╝ ██╗    ██████╔╝╚██████╔╝   ██║   ║`);
     console.log(`║  ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   ║`);
     console.log(`╠═══════════════════════════════════════════════════╣`);
+    console.log(`║ Version: ${BOT_VERSION}                                           ║`);
     console.log(`║ WhatsApp: ${BRAND_WHATSAPP}                           ║`);
     console.log(`║ Email: ${BRAND_EMAIL}                      ║`);
     console.log(`╚═══════════════════════════════════════════════════╝\n`);

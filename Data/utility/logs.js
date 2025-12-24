@@ -7,6 +7,7 @@ const logDir = path.join(__dirname, '../system/database/botdata/logs');
 fs.ensureDirSync(logDir);
 
 const BRAND_NAME = "SARDAR RDX";
+const BOT_VERSION = "0.6";
 const BRAND_WHATSAPP = "+923301068874";
 const BRAND_EMAIL = "sardarrdx@gmail.com";
 
@@ -31,6 +32,7 @@ const printBanner = () => {
   console.log(chalk.cyan('  ║') + chalk.yellow.bold('  ██║  ██║██████╔╝██╔╝ ██╗    ██████╔╝╚██████╔╝   ██║   ') + chalk.cyan('║'));
   console.log(chalk.cyan('  ║') + chalk.yellow.bold('  ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   ') + chalk.cyan('║'));
   console.log(chalk.cyan('  ╠═══════════════════════════════════════════════════╣'));
+  console.log(chalk.cyan('  ║') + chalk.green(' Version: ') + chalk.white.bold(BOT_VERSION) + chalk.green('                                           ') + chalk.cyan('║'));
   console.log(chalk.cyan('  ║') + chalk.green(' WhatsApp: ') + chalk.white.bold('+923301068874') + chalk.green('                           ') + chalk.cyan('║'));
   console.log(chalk.cyan('  ║') + chalk.green(' Email: ') + chalk.white.bold('sardarrdx@gmail.com') + chalk.green('                      ') + chalk.cyan('║'));
   console.log(chalk.cyan('  ╚═══════════════════════════════════════════════════╝'));
