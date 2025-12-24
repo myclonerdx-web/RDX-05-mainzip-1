@@ -12,7 +12,7 @@ const UsersController = require('./Data/system/controllers/users');
 const ThreadsController = require('./Data/system/controllers/threads');
 const CurrenciesController = require('./Data/system/controllers/currencies');
 
-const configPath = path.join(__dirname, 'envconfig.json');
+const configPath = path.join(__dirname, 'config.json');
 const appstatePath = path.join(__dirname, 'appstate.json');
 const islamicPath = path.join(__dirname, 'Data/config/islamic_messages.json');
 const commandsPath = path.join(__dirname, 'rdx/commands');

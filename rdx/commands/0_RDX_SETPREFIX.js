@@ -13,7 +13,7 @@ module.exports = {
   async run({ api, event, args, send }) {
     const fs = require('fs-extra');
     const path = require('path');
-    const configPath = path.join(__dirname, '../../envconfig.json');
+    const configPath = path.join(__dirname, '../../config.json');
     
     const newPrefix = args[0];
     
