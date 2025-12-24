@@ -13,7 +13,7 @@ module.exports = {
   async run({ api, event, args, send, config }) {
     const fs = require('fs-extra');
     const path = require('path');
-    const configPath = path.join(__dirname, '../../Data/config/envconfig.json');
+    const configPath = path.join(__dirname, '../../envconfig.json');
     let envConfig = fs.readJsonSync(configPath);
     
     const action = args[0]?.toLowerCase();

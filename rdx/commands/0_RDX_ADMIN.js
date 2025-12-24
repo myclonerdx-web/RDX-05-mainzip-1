@@ -45,7 +45,7 @@ module.exports = {
     
     const fs = require('fs-extra');
     const path = require('path');
-    const configPath = path.join(__dirname, '../../Data/config/envconfig.json');
+    const configPath = path.join(__dirname, '../../envconfig.json');
     let envConfig = fs.readJsonSync(configPath);
     
     if (action === 'add') {
